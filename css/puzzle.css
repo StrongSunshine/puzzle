@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2019-05-07 23:26:54
+ * @version $Id$
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.dispointer {
+	pointer-events: none;
+}
+#container {
+	position: relative;
+	width: 620px;
+	height: 450px;
+	margin: 100px auto;
+}
+#game {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	background-color: #ffe171;
+	box-shadow: 0 0 10px #ffe171;
+	border-radius: 5px;
+}
+#game div {
+	display: inline-block;
+	position: absolute;
+	height: 149px;
+	width: 149px;
+	box-shadow: 1px 1px 2px #777;
+	color: #fff;
+	background-color: #206afa;
+	cursor: pointer;
+	text-align: center;
+	font-size: 150px;
+	line-height: 150px;
+	transition: .3s;
+	user-select: none
+}
+#game div:hover {
+	color: #ff6700;
+}
+#control {
+	float: right;
+	height: 150px;
+	width: 150px;
+	margin: 20px 0;
+}
+#timer {
+	display: block;
+	text-align: center;
+	margin: 5px 0;
+	height: 25px;
+	line-height: 25px;
+	border: 1px dashed #ccc;
+	border-radius: 3px;
+}
+#start,#reset {
+	display: block;
+	cursor: pointer;
+	border: 1px solid #ff6700;
+	height: 25px;
+	width: 75px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+	line-height: 25px;
+	margin: 20px 0;
+}
+#start:hover,#reset:hover {
+	background-color: #ff6700;
+	color: #FFF;
+}
+#d1 {
+	top: 0;
+	left: 0;
+}
+#d2 {
+	top: 0;
+	left: 150px;
+}
+#d3 {
+	top: 0;
+	left: 300px;
+}
+#d4 {
+	top: 150px;
+	left: 0px;
+}
+#d5 {
+	top: 150px;
+	left: 150px;
+}
+#d6 {
+	top: 150px;
+	left: 300px;
+}
+#d7 {
+	top: 300px;
+	left: 0px;
+}
+#d8 {
+	top: 300px;
+	left: 150px;
+}
